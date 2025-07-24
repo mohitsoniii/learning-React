@@ -6,10 +6,10 @@ function App() {
 
   function addCount() {
     if (counter < 25) {
-      setCount(counter = counter + 1)
-      setCount(counter = counter + 1)
-      setCount(counter = counter + 1)
-      setCount(counter = counter + 1)
+      setCount(counter = counter + 1)  // setCount(prevCounter = prevCounter + 1)
+      setCount(counter = counter + 1)  // setCount(prevCounter = prevCounter + 1)
+      setCount(counter = counter + 1)  // setCount(prevCounter = prevCounter + 1)
+      setCount(counter = counter + 1)  // setCount(prevCounter = prevCounter + 1)
     }else{
       alert('Maximum value reached')
     }
